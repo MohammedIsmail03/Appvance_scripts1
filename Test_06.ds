@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
   <testcase name='' description='script generated from Web Designer' author='Mohammed_Muthu_CAYUSE@appvance.com' version='webDesigner'>
-    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <dpl filename='{ds}/DPL_MAILS_INDIAN.csv' exectype='runnextstep' errorhandling='' type='SyntheticDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6a41baa8-cb12-4aeb-885f-5254406c845c' uiType='base'>
@@ -107,7 +107,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"demo@appvance.net"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ed26ba1e-89f5-426d-9c64-03a2b21ca870' uiType='base'>
+    <step action='setValue' value='$exampleEmail' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ed26ba1e-89f5-426d-9c64-03a2b21ca870' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_email"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='emailbox("form-control title")' selected='false' fallback='true'></accessor>
