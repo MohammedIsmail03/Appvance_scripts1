@@ -78,7 +78,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/clothing"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8baa2789-83a5-4a3d-9477-7b6ae9c2b3ec' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8baa2789-83a5-4a3d-9477-7b6ae9c2b3ec' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='span(0, _in(div("product_7")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;product_7&apos;})))' selected='false' fallback='true'></accessor>
@@ -92,7 +92,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;span[title="Apache Baseball Jersey"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8cca67bb-896b-41d9-b51d-756489f05a91' uiType='base'>
+    <step action='setValue' value='"3"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8cca67bb-896b-41d9-b51d-756489f05a91' uiType='base'>
       <dialect type='sahi'>
         <accessor type='SmartTag' value='Newsmarttag_01(&apos;quantity&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="quantity"]&apos;)' selected='false' fallback='true'></accessor>
@@ -111,7 +111,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0f8e1bf3-289b-402b-9074-48bfb737111c' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='0f8e1bf3-289b-402b-9074-48bfb737111c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
