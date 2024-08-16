@@ -28,7 +28,20 @@
 	],
 	"actions": [],
 	"customTags": [],
-	"validators": [],
+	"validators": [
+		{
+			"name": "Newval",
+			"when": "postAction",
+			"operator": "staticText",
+			"type": "",
+			"value": "",
+			"target": "$Newquantity",
+			"where": "presentWholePage",
+			"locator": "",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	],
 	"extractors": [
 		{
 			"name": "Newext01",
