@@ -21,7 +21,7 @@
 			"methods": {},
 			"validators": [],
 			"extractors": [],
-			"disabled": false,
+			"disabled": true,
 			"description": "",
 			"image": ""
 		},
