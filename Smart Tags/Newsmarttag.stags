@@ -1,0 +1,43 @@
+{
+	"threshold": "0.75",
+	"smartTags": [
+		{
+			"name": "Newsmarttag_01",
+			"type": "Text",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "idAPPVANCESPLITTERquantity"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		}
+	],
+	"actions": [],
+	"customTags": [],
+	"validators": [],
+	"extractors": [
+		{
+			"name": "Newext01",
+			"when": "preAction",
+			"value": "",
+			"type": "text",
+			"variable": "Newquantity",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	]
+}
