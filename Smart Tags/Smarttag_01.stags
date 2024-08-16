@@ -24,10 +24,57 @@
 			"disabled": false,
 			"description": "",
 			"image": ""
+		},
+		{
+			"name": "Smarttag_02",
+			"type": "Text",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "idAPPVANCESPLITTERquantity"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [],
+			"extractors": [],
+			"disabled": false,
+			"description": "",
+			"image": ""
 		}
 	],
 	"actions": [],
 	"customTags": [],
-	"validators": [],
-	"extractors": []
+	"validators": [
+		{
+			"name": "Countval",
+			"when": "postAction",
+			"operator": "staticText",
+			"type": "",
+			"value": "",
+			"target": "$quantity",
+			"where": "presentWholePage",
+			"locator": "",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	],
+	"extractors": [
+		{
+			"name": "Countext",
+			"when": "preAction",
+			"value": "",
+			"type": "text",
+			"variable": "quantity",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	]
 }
