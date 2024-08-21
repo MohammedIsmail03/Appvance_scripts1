@@ -19,8 +19,12 @@
 			"scanOnePerPage": false,
 			"info": {},
 			"methods": {},
-			"validators": [],
-			"extractors": [],
+			"validators": [
+				"Newval1"
+			],
+			"extractors": [
+				"Newext02"
+			],
 			"disabled": false,
 			"description": "",
 			"image": ""
@@ -28,6 +32,29 @@
 	],
 	"actions": [],
 	"customTags": [],
-	"validators": [],
-	"extractors": []
+	"validators": [
+		{
+			"name": "Newval1",
+			"when": "postAction",
+			"operator": "staticText",
+			"type": "",
+			"value": "",
+			"target": "$NewText",
+			"where": "presentWholePage",
+			"locator": "",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	],
+	"extractors": [
+		{
+			"name": "Newext02",
+			"when": "preAction",
+			"value": "",
+			"type": "text",
+			"variable": "NewText",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	]
 }
